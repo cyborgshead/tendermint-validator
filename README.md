@@ -1,3 +1,13 @@
+# Fork
+Fork of [tendermint-validator](https://gitlab.com/polychainlabs/tendermint-validator) and ongoing work on tendermint threshold validator using [threshold-ed25519](https://gitlab.com/polychainlabs/threshold-ed25519)
+
+Read article [Threshold Validator for Tendermint
+](https://blog.polychainlabs.com/tendermint/2020/03/26/threshold-validator-for-tendermint.html) by Polychain Labs
+
+With respect to Polychain Labs developers ([Roman Shtylman](https://gitlab.com/roman-pc)) and [Cybernetic Destiny](https://www.mintscan.io/validators/cosmosvaloper1d7ufwp2rgfj7s7pfw2q7vm2lc9txmr8vh77ztr) validator
+
+Updated to work with tendermint v0.33
+
 # Tendermint Validator
 
 A lightweight single key tendermint validator for sentry nodes.
