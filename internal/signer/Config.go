@@ -19,10 +19,10 @@ type Config struct {
 	PrivValKeyFile    string           `toml:"key_file"`
 	PrivValStateDir   string           `toml:"state_dir"`
 	ChainID           string           `toml:"chain_id"`
-	CosignerThreshold int              `toml:"cosigner_threshold"`
-	ListenAddress     string           `toml:"cosigner_listen_address"`
+	//CosignerThreshold int              `toml:"cosigner_threshold"`
+	//ListenAddress     string           `toml:"cosigner_listen_address"`
 	Nodes             []NodeConfig     `toml:"node"`
-	Cosigners         []CosignerConfig `toml:"cosigner"`
+	//Cosigners         []CosignerConfig `toml:"cosigner"`
 }
 
 func LoadConfigFromFile(file string) (Config, error) {
